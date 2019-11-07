@@ -1,0 +1,132 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+input#user_email{
+position: absolute;    
+top: 0;
+bottom: 90%;  
+left: calc(50% + 200px);
+margin: auto;
+width: 150px;
+height: 30px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 29px;
+opacity: 1;
+
+}
+
+
+input#user_password{
+    position: absolute;    
+    top: 0;
+    bottom: 90%;  
+    left: calc(50% + 200px);
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 29px;
+    opacity: 1;
+}
+
+.actions{
+    position: absolute;    
+    top: 36.5%;
+    bottom: 0;  
+    left: calc(50% + 100px);
+    margin: auto;
+    width: 76px;
+    height: 38px;
+    text-align: left;
+    font: Regular 38px/46px MS PMincho;
+    letter-spacing: 0;
+    color: #0A0000;
+    opacity: 1;
+}
+
+input#user_remember_me{
+    position: absolute;    
+    top: 35%;
+    bottom: 0;  
+    left: 30%;
+    margin: auto;
+}
+
+label[for=user_email] {
+    position: absolute;    
+    top: 0;
+    bottom: 0;  
+    left: 30%;
+    margin: auto;
+    font-size: 1.125em;
+    color: red;
+}
+
+label[for=user_remember_me] {
+    position: absolute;    
+    top: 64.8%;
+    bottom: 0;  
+    left: calc(30% + 30px);
+    margin: auto;
+    font-size: 1.125em;
+    color: red;
+}
+
+label[for=user_password] {
+    position: absolute;    
+    top: 0;
+    bottom: 0;  
+    
+    margin: auto;
+    font-size: 1.125em;
+    color: red;
+}
+
+body.sessions#new{
+top: 0px;
+left: 0px;
+width: 1920px;
+height: 1080px;
+background: image-url('login.png') 0% 0% no-repeat padding-box;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-color: #464646;
+opacity: 1;
+}
+
+h1.login{
+    position: absolute;    
+    top: 31%;
+    bottom: 0;  
+    left: 26%;
+    margin: auto;
+    font-size: 3;
+    color: red;
+}
+
+html,body{
+    overflow: hidden
+  }
+
+  div.field1{
+    position: absolute;    
+    top: 43%;
+    bottom: 0;  
+    left: 30%;
+    margin: auto;  
+  }
+
+  div.field2{
+    position: absolute;    
+    top: 57%;
+    bottom: 0;  
+    left: 30%;
+    margin: auto;  
+  }
