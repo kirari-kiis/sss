@@ -1,0 +1,7 @@
+
+
+<!-- 追加 -->
+<% @favorite_subjects.each do |subject| %>
+  <hr>
+  <p><span>お気に入り: </span><%=link_to subject.body, subject_path(subject.id) %></p>
+<% end %>
