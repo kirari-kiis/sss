@@ -4,11 +4,11 @@
 
 
 
-input#user_email{
+.field1 > input#user_email{
 position: absolute;    
 top: 0;
-bottom: 90%;  
-left: calc(50% + 200px);
+bottom: 10%;  
+left: calc(50% + 35px);
 margin: auto;
 width: 150px;
 height: 30px;
@@ -20,11 +20,11 @@ opacity: 1;
 }
 
 
-input#user_password{
+.field2 > input#user_password{
     position: absolute;    
-    top: 0;
-    bottom: 90%;  
-    left: calc(50% + 200px);
+    top: 14%;
+    bottom: 0;  
+    left: calc(50% + 35px);
     margin: auto;
     width: 150px;
     height: 30px;
@@ -34,11 +34,11 @@ input#user_password{
     opacity: 1;
 }
 
-.actions{
+.actions1{
     position: absolute;    
-    top: 36.5%;
+    top: 37%;
     bottom: 0;  
-    left: calc(50% + 100px);
+    left: calc(50% + 110px);
     margin: auto;
     width: 76px;
     height: 38px;
@@ -51,41 +51,16 @@ input#user_password{
 
 input#user_remember_me{
     position: absolute;    
-    top: 35%;
+    top: 33%;
     bottom: 0;  
-    left: 30%;
+    left: 28%;
     margin: auto;
 }
 
-label[for=user_email] {
-    position: absolute;    
-    top: 0;
-    bottom: 0;  
-    left: 30%;
-    margin: auto;
-    font-size: 1.125em;
-    color: red;
+header{
+    font-family: 'Verdana';
 }
 
-label[for=user_remember_me] {
-    position: absolute;    
-    top: 64.8%;
-    bottom: 0;  
-    left: calc(30% + 30px);
-    margin: auto;
-    font-size: 1.125em;
-    color: red;
-}
-
-label[for=user_password] {
-    position: absolute;    
-    top: 0;
-    bottom: 0;  
-    
-    margin: auto;
-    font-size: 1.125em;
-    color: red;
-}
 
 body.sessions#new{
 top: 0px;
@@ -101,32 +76,126 @@ background-color: #464646;
 opacity: 1;
 }
 
-h1.login{
+h1{
     position: absolute;    
     top: 31%;
     bottom: 0;  
     left: 26%;
     margin: auto;
-    font-size: 3;
+
+}
+p{
+    font-size: 20pt;
     color: red;
+    font-family: 'Verdana';
+}
+
+.field1 > p.email{
+    position: absolute;    
+    top: 42%;
+    bottom: 0;  
+    left: 30%;
+    margin: auto;
+
+}
+
+p.password{
+    position: absolute;    
+    top: 53%;
+    bottom: 0;  
+    left: 30%;
+    margin: auto;
+
+}
+
+p.remenber_me{
+    position: absolute;    
+    top: 63%;
+    bottom: 0;  
+    left: 30%;
+    margin: auto;
+
 }
 
 html,body{
     overflow: hidden
   }
 
-  div.field1{
-    position: absolute;    
-    top: 43%;
-    bottom: 0;  
-    left: 30%;
-    margin: auto;  
-  }
 
-  div.field2{
+
+
+body.registrations{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: image-url('login.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #464646;
+    opacity: 1;
+}
+
+.field4 > input#user_email{
     position: absolute;    
-    top: 57%;
+    top: 0;
     bottom: 0;  
-    left: 30%;
-    margin: auto;  
-  }
+    left: calc(50% + 35px);
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 29px;
+    opacity: 1;
+    
+    }
+
+    .field4 > p.email{
+        position: absolute;    
+        top: 47%;
+        bottom: 0;  
+        left: 30%;
+        margin: auto;
+    
+    }
+    
+
+    .actions2{
+        position: absolute;    
+        top: 20%;
+        bottom: 0;  
+        left: 50%;
+        margin: auto;
+        width: 76px;
+        height: 38px;
+        text-align: left;
+        font: Regular 38px/46px MS PMincho;
+        letter-spacing: 0;
+        color: #0A0000;
+        opacity: 1;
+    }
+
+    body.passwords{
+        top: 0px;
+        left: 0px;
+        width: 1920px;
+        height: 1080px;
+        background: image-url('login.png') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-color: #464646;
+        opacity: 1;
+        }
+    .block{
+        overflow: hidden;
+        width: 32%;
+        height: 30%;
+        opacity: 1;
+        background-color: #464646;
+
+    }
