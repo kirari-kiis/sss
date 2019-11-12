@@ -1,5 +1,6 @@
 <body class='<%= controller_name %>' id='<%= action_name %>' >
-<h1 class="login">ログイン</h1>
+<div class=center>
+<h1 class="login">Log in</h1>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="field1">
@@ -26,8 +27,6 @@
     <%= f.submit "Log in" %>
   </div>
 <% end %>
-
+</div>
 <%= render "users/shared/links" %>
 </body>
-
-<div class="block"></div>

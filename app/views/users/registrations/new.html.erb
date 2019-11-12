@@ -1,30 +1,35 @@
 <body class='<%= controller_name %>' id='<%= action_name %>' >
+<div class="center">
 <h1>Sign up</h1>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="field">
-    <%= f.label :email %><br />
+  <div class="field4">
+    <!--<%= f.label :email %>-->
+    <p class="email">email</p><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
 
-  <div class="field">
-    <%= f.label :password %>
+  <div class="field5">
+    <!--<%= f.label :password %>-->
+    <p class="password">password</p>
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
     <%= f.password_field :password, autocomplete: "new-password" %>
   </div>
 
-  <div class="field">
-    <%= f.label :password_confirmation %><br />
+  <div class="field6">
+    <!--<%= f.label :password_confirmation %>--><br />
+    <p class="pass_con">password_confirmation</p>
     <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
   </div>
 
-  <div class="actions">
+  <div class="actions2">
     <%= f.submit "Sign up" %>
   </div>
-<% end %>
-
+  <% end %>
+</div>
 <%= render "users/shared/links" %>
+</body>

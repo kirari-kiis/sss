@@ -1,130 +1,73 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-
-
 .field1 > input#user_email{
-position: absolute;    
-top: 0;
-bottom: 10%;  
-left: calc(50% + 35px);
-margin: auto;
-width: 150px;
-height: 30px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border: 1px solid #707070;
-border-radius: 29px;
-opacity: 1;
-
-}
-
-
-.field2 > input#user_password{
     position: absolute;    
-    top: 14%;
-    bottom: 0;  
-    left: calc(50% + 35px);
+    top: 0;
+    bottom: 32%;  
+    left: 58%;
     margin: auto;
-    width: 150px;
-    height: 30px;
+    width: 30%;
+    height: 12%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 29px;
     opacity: 1;
-}
+    
+    }
+    
+   
+    .field2 > input#user_password{
+        position: absolute;    
+        top: 15%;
+        bottom: 0;  
+        left: 58%;
+        margin: auto;
+        width: 30%;
+        height: 12%;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        border-radius: 29px;
+        opacity: 1;
+    }
+    
+    .actions1{
+        position: absolute;    
+        top: 65%;
+        bottom: 0;  
+        left: 73%;
+        margin: auto;
+        width: 100px;
+        height: 30px;
+        text-align: left;
+        font: Regular 38px/46px MS PMincho;
+        letter-spacing: 0;
+        color: #0A0000;
+        opacity: 1;
+    }
+    
+    .actions1 > input{
+        width: 70px;
+        height: 50px;
+        font-size: 100%
+    }
 
-.actions1{
-    position: absolute;    
-    top: 37%;
-    bottom: 0;  
-    left: calc(50% + 110px);
-    margin: auto;
-    width: 76px;
-    height: 38px;
-    text-align: left;
-    font: Regular 38px/46px MS PMincho;
-    letter-spacing: 0;
-    color: #0A0000;
-    opacity: 1;
-}
-
-input#user_remember_me{
-    position: absolute;    
-    top: 33%;
-    bottom: 0;  
-    left: 28%;
-    margin: auto;
-}
-
-header{
-    font-family: 'Verdana';
-}
-
-
-body.sessions#new{
-top: 0px;
-left: 0px;
-width: 1920px;
-height: 1080px;
-background: image-url('login.png') 0% 0% no-repeat padding-box;
-background-size: cover;
-background-position: center center;
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-color: #464646;
-opacity: 1;
-}
-
-h1{
-    position: absolute;    
-    top: 31%;
-    bottom: 0;  
-    left: 26%;
-    margin: auto;
-
-}
-p{
-    font-size: 20pt;
-    color: red;
-    font-family: 'Verdana';
-}
-
-.field1 > p.email{
-    position: absolute;    
-    top: 42%;
-    bottom: 0;  
-    left: 30%;
-    margin: auto;
-
-}
-
-p.password{
-    position: absolute;    
-    top: 53%;
-    bottom: 0;  
-    left: 30%;
-    margin: auto;
-
-}
-
-p.remenber_me{
-    position: absolute;    
-    top: 63%;
-    bottom: 0;  
-    left: 30%;
-    margin: auto;
-
-}
-
-html,body{
-    overflow: hidden
-  }
-
-
-
-
-body.registrations{
+    input#user_remember_me{
+        position: absolute;    
+        top: 63%;
+        bottom: 0;  
+        left: 12%;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+    
+    header{
+        font-family: 'Verdana';
+    }
+    
+    
+    body.sessions#new{
     top: 0px;
     left: 0px;
     width: 1920px;
@@ -134,51 +77,61 @@ body.registrations{
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #464646;
+    
     opacity: 1;
-}
-
-.field4 > input#user_email{
-    position: absolute;    
-    top: 0;
-    bottom: 0;  
-    left: calc(50% + 35px);
-    margin: auto;
-    width: 150px;
-    height: 30px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    border-radius: 29px;
-    opacity: 1;
+    }
+    
+    .center > h1{
+        position: absolute;    
+        top: 0;
+        bottom: 0;  
+        left: 10%;
+        margin: auto;
     
     }
 
-    .field4 > p.email{
+ 
+    p{
+        font-size: 25pt;
+        color:#000000;
+        font-family: 'Verdana';
+    }
+    
+    .field1 > p.email{
         position: absolute;    
-        top: 47%;
+        top: 30%;
         bottom: 0;  
-        left: 30%;
+        left: 16%;
         margin: auto;
     
     }
     
-
-    .actions2{
+    p.password{
         position: absolute;    
-        top: 20%;
+        top: 53%;
         bottom: 0;  
-        left: 50%;
+        left: 16%;
         margin: auto;
-        width: 76px;
-        height: 38px;
-        text-align: left;
-        font: Regular 38px/46px MS PMincho;
-        letter-spacing: 0;
-        color: #0A0000;
-        opacity: 1;
+    
     }
-
-    body.passwords{
+    
+    p.remenber_me{
+        position: absolute;    
+        top: 77%;
+        bottom: 0;  
+        left: 16%;
+        margin: auto;
+    
+    }
+    
+    html,body{
+        overflow: hidden
+      }
+    
+    
+    
+    
+    body.registrations{
         top: 0px;
         left: 0px;
         width: 1920px;
@@ -188,14 +141,197 @@ body.registrations{
         background-position: center center;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-color: #464646;
+       
         opacity: 1;
-        }
-    .block{
-        overflow: hidden;
-        width: 32%;
-        height: 30%;
-        opacity: 1;
-        background-color: #464646;
-
     }
+
+    .field4 > input#user_email{
+        position: absolute;    
+        top: 0;
+        bottom: 18%;  
+        left: 62%;
+        margin: auto;
+        width: 150px;
+        height: 30px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        border-radius: 29px;
+        opacity: 1;
+        
+        }
+
+        .field_with_errors> input#user_email{
+            position: absolute;    
+            top: 0;
+            bottom: 18%;  
+            left: 62%;
+            margin: auto;
+            width: 150px;
+            height: 30px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #707070;
+            border-radius: 29px;
+            opacity: 1;
+            
+            }    
+    .field5 > input#user_password{
+        position: absolute;    
+        top: 24%;
+        bottom: 0%;  
+        left: 62%;
+        margin: auto;
+        width: 150px;
+        height: 30px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        border-radius: 29px;
+        opacity: 1;
+        
+        }
+
+        .field_with_errors > input#user_password{
+            position: absolute;    
+            top: 24%;
+            bottom: 0%;  
+            left: 62%;
+            margin: auto;
+            width: 150px;
+            height: 30px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 1px solid #707070;
+            border-radius: 29px;
+            opacity: 1;
+            
+            }
+
+        .field6 > input#user_password_confirmation{
+        position: absolute;    
+        top: 70%;
+        bottom: 0%;  
+        left: 62%;
+        margin: auto;
+        width: 150px;
+        height: 30px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        border-radius: 29px;
+        opacity: 1;
+        
+        }
+
+        .actions2{
+            position: absolute;    
+            top: 90%;
+            bottom: 0;  
+            left: 73%;
+            margin: auto;
+            width: 100px;
+            height: 30px;
+            text-align: left;
+            font: Regular 38px/46px MS PMincho;
+            letter-spacing: 0;
+            color: #0A0000;
+            opacity: 1;
+        }
+        .actions2 > input{
+            width: 70px;
+            height: 50px;
+            font-size: 100%
+        }
+        .field4 > p.email{
+            position: absolute;    
+            top: 35%;
+            bottom: 0;  
+            left: 12%;
+            margin: auto;
+        
+            }
+
+        .field5 > p.password{
+            position: absolute;    
+            top: 55%;
+            bottom: 0;  
+            left: 12%;
+            margin: auto;
+        
+        }
+        .field5 > em{
+            position: absolute;    
+            top: 64%;
+            bottom: 0;  
+            left: 12%;
+            margin: auto;
+        
+        }
+        .field6 > p.pass_con{
+            position: absolute;    
+            top: 80%;
+            bottom: 0;  
+            left: 12%;
+            margin: auto;
+        
+        }
+
+        .field7 > p.email{
+            position: absolute;    
+            top: 45%;
+            bottom: 0;  
+            left: 15%;
+            margin: auto;
+        
+            }
+    
+        
+        
+    .actions3{
+        position: absolute;    
+        top: 20%;
+        bottom: 0;  
+        left: 52%;
+        margin: auto;
+        width: 100px;
+        height: 30px;
+        text-align: left;
+        font: Regular 100px/100px MS PMincho;
+        letter-spacing: 0;
+        color: #0A0000;
+        opacity: 1;
+    }
+    .actions3 > input{
+        width: 240px;
+        height: 60px;
+        font-size: 100%
+    }
+    
+    
+        body.passwords{
+            top: 0px;
+            left: 0px;
+            width: 1920px;
+            height: 1080px;
+            background: image-url('login.png') 0% 0% no-repeat padding-box;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+           
+            opacity: 1;
+            }
+
+            
+            .center{
+                /*background-color: #2196F3;   /* 背景色指定 */
+                position: absolute;          /* 位置指定 */
+                padding: 20px;               /* 余白指定 */
+                top:  0;                     /* 位置指定 */
+                bottom:  0;                  /* 位置指定 */
+                left:  0;                    /* 位置指定 */
+                right:  0;                   /* 位置指定 */
+                margin:  auto;               /* 中央寄せ */
+                width:  60%;               /* 幅指定 */
+                height: 55%;                /* 高さ指定 */
+            }
+
+            #error_explanation{
+                padding: 10px;
+            }
