@@ -2,9 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .field1 > input#user_email{
-    position: absolute;    
+    position: absolute;
     top: 0;
-    bottom: 32%;  
+    bottom: 32%;
     left: 58%;
     margin: auto;
     width: 30%;
@@ -13,14 +13,14 @@
     border: 1px solid #707070;
     border-radius: 29px;
     opacity: 1;
-    
+
     }
-    
-   
+
+
     .field2 > input#user_password{
-        position: absolute;    
+        position: absolute;
         top: 15%;
-        bottom: 0;  
+        bottom: 0;
         left: 58%;
         margin: auto;
         width: 30%;
@@ -30,11 +30,11 @@
         border-radius: 29px;
         opacity: 1;
     }
-    
+
     .actions1{
-        position: absolute;    
+        position: absolute;
         top: 65%;
-        bottom: 0;  
+        bottom: 0;
         left: 73%;
         margin: auto;
         width: 100px;
@@ -45,28 +45,28 @@
         color: #0A0000;
         opacity: 1;
     }
-    
+
     .actions1 > input{
         width: 70px;
-        height: 50px;
+        height: 30px;
         font-size: 100%
     }
 
     input#user_remember_me{
-        position: absolute;    
+        position: absolute;
         top: 63%;
-        bottom: 0;  
+        bottom: 0;
         left: 12%;
         margin: auto;
-        width: 100px;
-        height: 100px;
+        width: 25px;
+        height: 25px;
     }
-    
+
     header{
         font-family: 'Verdana';
     }
-    
-    
+
+
     body.sessions#new{
     top: 0px;
     left: 0px;
@@ -77,60 +77,60 @@
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
+
     opacity: 1;
     }
-    
+
     .center > h1{
-        position: absolute;    
+        position: absolute;
         top: 0;
-        bottom: 0;  
+        bottom: 0;
         left: 10%;
         margin: auto;
-    
+
     }
 
- 
+
     p{
         font-size: 25pt;
         color:#000000;
         font-family: 'Verdana';
     }
-    
+
     .field1 > p.email{
-        position: absolute;    
+        position: absolute;
         top: 30%;
-        bottom: 0;  
+        bottom: 0;
         left: 16%;
         margin: auto;
-    
+
     }
-    
+
     p.password{
-        position: absolute;    
+        position: absolute;
         top: 53%;
-        bottom: 0;  
+        bottom: 0;
         left: 16%;
         margin: auto;
-    
+
     }
-    
+
     p.remenber_me{
-        position: absolute;    
+        position: absolute;
         top: 77%;
-        bottom: 0;  
+        bottom: 0;
         left: 16%;
         margin: auto;
-    
+
     }
-    
+
     html,body{
         overflow: hidden
       }
-    
-    
-    
-    
+
+
+
+
     body.registrations{
         top: 0px;
         left: 0px;
@@ -141,14 +141,14 @@
         background-position: center center;
         background-attachment: fixed;
         background-repeat: no-repeat;
-       
+
         opacity: 1;
     }
 
     .field4 > input#user_email{
-        position: absolute;    
+        position: absolute;
         top: 0;
-        bottom: 18%;  
+        bottom: 18%;
         left: 62%;
         margin: auto;
         width: 150px;
@@ -157,13 +157,13 @@
         border: 1px solid #707070;
         border-radius: 29px;
         opacity: 1;
-        
+
         }
 
         .field_with_errors> input#user_email{
-            position: absolute;    
+            position: absolute;
             top: 0;
-            bottom: 18%;  
+            bottom: 18%;
             left: 62%;
             margin: auto;
             width: 150px;
@@ -172,12 +172,12 @@
             border: 1px solid #707070;
             border-radius: 29px;
             opacity: 1;
-            
-            }    
+
+            }
     .field5 > input#user_password{
-        position: absolute;    
+        position: absolute;
         top: 24%;
-        bottom: 0%;  
+        bottom: 0%;
         left: 62%;
         margin: auto;
         width: 150px;
@@ -186,13 +186,13 @@
         border: 1px solid #707070;
         border-radius: 29px;
         opacity: 1;
-        
+
         }
 
         .field_with_errors > input#user_password{
-            position: absolute;    
+            position: absolute;
             top: 24%;
-            bottom: 0%;  
+            bottom: 0%;
             left: 62%;
             margin: auto;
             width: 150px;
@@ -201,13 +201,13 @@
             border: 1px solid #707070;
             border-radius: 29px;
             opacity: 1;
-            
+
             }
 
         .field6 > input#user_password_confirmation{
-        position: absolute;    
+        position: absolute;
         top: 70%;
-        bottom: 0%;  
+        bottom: 0%;
         left: 62%;
         margin: auto;
         width: 150px;
@@ -216,13 +216,13 @@
         border: 1px solid #707070;
         border-radius: 29px;
         opacity: 1;
-        
+
         }
 
         .actions2{
-            position: absolute;    
+            position: absolute;
             top: 90%;
-            bottom: 0;  
+            bottom: 0;
             left: 73%;
             margin: auto;
             width: 100px;
@@ -235,58 +235,58 @@
         }
         .actions2 > input{
             width: 70px;
-            height: 50px;
+            height: 30px;
             font-size: 100%
         }
         .field4 > p.email{
-            position: absolute;    
+            position: absolute;
             top: 35%;
-            bottom: 0;  
+            bottom: 0;
             left: 12%;
             margin: auto;
-        
+
             }
 
         .field5 > p.password{
-            position: absolute;    
+            position: absolute;
             top: 55%;
-            bottom: 0;  
+            bottom: 0;
             left: 12%;
             margin: auto;
-        
+
         }
         .field5 > em{
-            position: absolute;    
+            position: absolute;
             top: 64%;
-            bottom: 0;  
+            bottom: 0;
             left: 12%;
             margin: auto;
-        
+
         }
         .field6 > p.pass_con{
-            position: absolute;    
+            position: absolute;
             top: 80%;
-            bottom: 0;  
+            bottom: 0;
             left: 12%;
             margin: auto;
-        
+
         }
 
         .field7 > p.email{
-            position: absolute;    
+            position: absolute;
             top: 45%;
-            bottom: 0;  
+            bottom: 0;
             left: 15%;
             margin: auto;
-        
+
             }
-    
-        
-        
+
+
+
     .actions3{
-        position: absolute;    
+        position: absolute;
         top: 20%;
-        bottom: 0;  
+        bottom: 0;
         left: 52%;
         margin: auto;
         width: 100px;
@@ -298,12 +298,12 @@
         opacity: 1;
     }
     .actions3 > input{
-        width: 240px;
+        width: 300px;
         height: 60px;
         font-size: 100%
     }
-    
-    
+
+
         body.passwords{
             top: 0px;
             left: 0px;
@@ -314,11 +314,11 @@
             background-position: center center;
             background-attachment: fixed;
             background-repeat: no-repeat;
-           
+
             opacity: 1;
             }
 
-            
+
             .center{
                 /*background-color: #2196F3;    背景色指定 */
                 position: absolute;          /* 位置指定 */
