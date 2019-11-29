@@ -1,0 +1,71 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #d4d4d4;
+}
+
+main{
+    padding-top: 50px;
+}
+
+
+.side{
+    width:200px;
+    min-height:500px;
+    height:auto;
+    /*background-color:#009b9f;*/
+    float:left;
+    margin-top:10px;
+    top: 50px;
+    /*position: fixed;*/
+}
+
+.side a:first-letter {
+font-size: 1.5em; /*最初の文字を1.5文字分に大きく*/
+}
+
+.side a:after { /*グラデーションのラインを引く*/
+content:"";
+display:block;
+height:1px;
+width:100%;
+background: -webkit-linear-gradient(left, #40bfa0 0%,#fef785 82%,#f37b7b 100%);
+background: linear-gradient(to right, #40bfa0 0%,#fef785 82%,#f37b7b 100%);
+}
+
+
+
+a{
+    color: #111111;
+    text-decoration: none ;
+}
+
+.home{
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+ 
+    opacity: 3;
+    }
+.home > img{
+    width: 100px;
+    height: 100px;
+}

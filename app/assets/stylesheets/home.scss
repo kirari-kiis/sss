@@ -1,3 +1,27 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body.home#top{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: image-url('login.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    
+    }
+
+    .side{
+        padding-top: 50px;
+        opacity: 2;
+    }
+
+    .people{
+        background: image-url('people.png');
+        opacity: 2;
+    }

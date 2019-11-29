@@ -1,7 +1,14 @@
-
-<p><span>email: </span><%= @user.email %></p>
+<body class='<%= controller_name %>' id='<%= action_name %>' >
+<main>
+<!--<h2>email: <%= @user.email %></h2>-->
+<h1>Favorites</h1>
 
 <% @favorite_subjects.each do |subject| %>
-  <hr>
-  <p><span>お気に入り: </span><%=link_to subject.name, subject_path(subject.id) %></p>
+  <div class="favorite">
+  <p><%=link_to subject.name, subject_path(subject.id) %></p>
+
+  </div>
 <% end %>
+
+</main>
+</body>

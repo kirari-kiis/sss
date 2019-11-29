@@ -9,8 +9,8 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <header>
-  <%=link_to("HOME","/home/top")%>
-  
+  <%=link_to("Home","/home/top")%>
+
   <% if current_user %> <%# 追加しました %>
     <%=link_to("マイページ", user_path(current_user))%>
   <% else %>
@@ -18,8 +18,30 @@
   <% end %>
 
   <%=link_to("教科一覧", "/subjects")%>
-  
+
   </header>
+
+  <div class="side">
+  <%=link_to("HOME","/home/top")%>
+  <br>
+  <% if current_user %> <%# 追加しました %>
+    <%=link_to("マイページ", user_path(current_user))%>
+  <% else %>
+    <%=link_to("マイページ", "/home/top") %>
+  <% end %>
+  <br>
+    <%=link_to("教科一覧", "/subjects")%>
+
+  <br>
+  <%= link_to( "ログアウト", destroy_user_session_path, method: "delete") %>
+  <br>
+  <% if current_user %>
+  <%else%>
+  <%= render "users/shared/links" %>
+  <%end%>
+  </div>
+
+
   <body>
     <%= yield %>
   </body>
