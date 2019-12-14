@@ -40,7 +40,7 @@
         width: 100px;
         height: 30px;
         text-align: left;
-        font: Regular 38px/46px MS PMincho;
+        
         letter-spacing: 0;
         color: #0A0000;
         opacity: 1;
@@ -62,9 +62,6 @@
         height: 25px;
     }
 
-    header{
-        font-family: 'Verdana';
-    }
 
 
     body.sessions#new{
@@ -93,7 +90,7 @@
 
     p{
         font-size: 25pt;
-        color:#000000;
+        
         font-family: 'Verdana';
     }
 
@@ -304,7 +301,11 @@
     }
 
 
+
     body.passwords{
+
+       
+
             top: 0px;
             left: 0px;
             width: 1920px;
@@ -319,7 +320,11 @@
     }
 
 
+
     .center{
+
+            
+
                 /*background-color: #2196F3;    背景色指定 */
                 position: absolute;          /* 位置指定 */
                 padding: 20px;               /* 余白指定 */
@@ -338,6 +343,7 @@
 
    
 
+ 
 
     .favorite {
         width: 200px;
@@ -347,13 +353,13 @@
         text-align: center;
         background: image-url('img_watercolor-300x200.png') 0 0 no-repeat padding-box,
         /*linear-gradient(349deg, #ffe300, #ff7e00, #f04100, #d100ff, #3300ff);*/
-        linear-gradient(to top left,#1e90FF, #64F9C1);
+        linear-gradient(to top left,rgb(30, 169, 255), rgb(0, 255, 217));
         background-size: 200px 200px;
         background-position: center;
         background-repeat: no-repeat;
         background-origin: padding-box;
         background-blend-mode: hard-light;
-        
+        border: solid 1px rgb(0, 255, 255);
             display: inline-block;
             width: 200px;
            margin:50px;
@@ -375,7 +381,7 @@
         margin:30% auto;
         font-size: 20pt;
         
-        ;
+        
       }
     
     
@@ -384,7 +390,7 @@
         top: 0px;
         left: 0px;
         width: 100%;
-        height: 3000px;
+        height: 200%;
         background: image-url('back.png') 0% 0% no-repeat padding-box;
         background-size: cover;
         background-position: center center;
@@ -392,5 +398,13 @@
         background-repeat: no-repeat;
         overflow: scroll; /* ここのscrollが効かない */
         height: 100vh; /* これを追加 */
-        
+        opacity: 1;
         }
+
+            #error_explanation{
+                padding: 10px;
+            }
+        
+    
+
+    

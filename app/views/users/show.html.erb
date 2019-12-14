@@ -1,8 +1,10 @@
 <body class='<%= controller_name %>' id='<%= action_name %>' >
+  <div class="img">
 <main>
 <!--<h2>email: <%= @user.email %></h2>-->
+<div class=title>
 <h1>Favorites</h1>
-
+</div>
 <% @favorite_subjects.each do |subject| %>
   <div class="favorite">
   <p><%=link_to subject.name, subject_path(subject.id) %></p>
@@ -11,4 +13,5 @@
 <% end %>
 
 </main>
+</div>
 </body>
